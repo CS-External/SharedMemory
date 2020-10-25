@@ -13,4 +13,8 @@
     <Copyright>Copyright (c) 2020 Justin Stenning</Copyright>
   </PropertyGroup>
 
+   <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard2.0'">
+    <DefineConstants>NETCORE;NETCORE2_0;NET40Plus</DefineConstants>
+  </PropertyGroup>
+   
 </Project>
