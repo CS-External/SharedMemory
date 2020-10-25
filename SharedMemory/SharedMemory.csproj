@@ -4,6 +4,7 @@
     <TargetFrameworks>netstandard2.1;netstandard2.0;net47;net46;net45;net4</TargetFrameworks>
     <OutputPath>..\bin\$(Configuration)\</OutputPath>
     <DocumentationFile>..\bin\$(Configuration)\$(TargetFramework)\SharedMemory.xml</DocumentationFile>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <PropertyGroup>
